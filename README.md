@@ -1,4 +1,4 @@
-# Simple 4-Bit CPU (LIMP)
+# Simple 4-Bit CPU (BX-4)
 
 [![Demo Video](https://img.shields.io/badge/YouTube-Demo%20Video-red?logo=youtube)](https://www.youtube.com/watch?v=geT2ecY6J6I)
 [![Hackaday](https://img.shields.io/badge/Hackaday.io-Project%20Page-brightgreen)](https://hackaday.io/project/204999-student-made-ttl-cpu)
@@ -14,7 +14,7 @@ This repo contains three generations of the design (V1, V2, V3), the Digital sim
 
 ## Background
 
-After reading *Code* by Charles Petzold, I wanted to actually understand how a processor works from the ground up, not just read about it. So I built one. The result is what I call LIMP, a simple 4-bit CPU implemented entirely in 74-series TTL logic.
+After reading *Code* by Charles Petzold, I wanted to actually understand how a processor works from the ground up, not just read about it. So I built one. The result is what I call BX-4, a simple 4-bit CPU implemented entirely in 74-series TTL logic.
 
 The whole thing is closer to a microcontroller than a true microprocessor. There is no external RAM access. The program lives in ROM simulated by an Arduino, and the CPU executes it instruction by instruction. It is slow, it has timing quirks, and getting it to actually run reliably was a real fight, but it works.
 
